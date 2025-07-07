@@ -55,7 +55,7 @@ Test your code locally before creating a Pull Request merge with the main.
 ```
 bun run deploy
 ```
-# For Windows systems use wsl
+# For Windows systems use wsl (Optional)
 ```
 wsl --install
 wsl --install -d Ubuntu-22.04
@@ -70,15 +70,11 @@ source ~/.bashrc
 ```
 bun --version
 ```
-**Now test the deployement locally**
-```
-bun run deploy
-```
 
-At least 2 members must review and approve the PR before merging into the test branch.
 ### Step 3: Production
-After successful testing, create a PR from the test branch to the main branch.
-This PR must be approved by the CTO and at least 1 other member.
+After successful testing, create a PR from your branch to the main branch.
+At least 1 member must review and approve the PR before merging into the main branch.
+This PR must be approved by the [Adnan]('https://github.com/Adnan-The-Coder') or at least 1 other member.
 Once approved, the changes will be deployed to production.
 ## 3. Commit Message Guidelines
 Use the following prefixes for clear and consistent commit messages:
@@ -99,8 +95,9 @@ Example: feat: add user authentication to login page.
 The CI/CD pipeline must run error-free.
 Both ESLint checks and Next.js build must pass successfully for the PR to be valid.
 ## 5. Conflict Resolution
-If any merge conflicts arise, contributors should immediately contact the CTO for resolution.
+If any merge conflicts arise, contributors should immediately contact the  [Adnan]('https://github.com/Adnan-The-Coder')  for resolution.
 ## 6. PR Review Time
 All PRs should be reviewed and resolved within 5 days of submission.
 
 ## Deployed on CloudFlare
+For enhance security and flawless experience in production not in development 🙂
